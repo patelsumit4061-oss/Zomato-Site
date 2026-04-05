@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(58, 56, 56);
+}
+
+header {
+    background: #f75757;
+    text-align: center;
+    margin: 0;
+    padding: 10px 20px;
+    color: white;
+
+}
+
+header h2 {
+    font-size: 33;
+
+}
+
+/* Back Button */
+
+.back-btn {
+    background-color: rgb(136, 124, 124);
+    color: rgb(214, 205, 205);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: wait;
+    font-size: large;
+}
+
+.back-btn:hover {
+    background-color: rgb(207, 93, 26);
+}
+
+.service {
+    padding: 20px 50px;
+    text-align: center;
+    background-color: rgb(57, 55, 58);
+}
+
+.service-container {
+
+
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: rgba(124, 92, 175, 0.068);
+    border-radius: 10px;
+    border: 2px solid rgb(82, 78, 78);
+    padding: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.service-box h3 {
+    font-size: 25;
+    color: rgb(201, 185, 185);
+}
+
+.service-box pre {
+    color: rgb(167, 160, 152);
+    font-size: large;
+}
+
+.service-box:hover {
+    transform: translate(20px);
+}
+
+.btn{
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    padding: 10px 8px;
+    background-color: rgb(255, 94, 0);
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.btn:hover{
+    background-color: rgb(233, 152, 152);
+}
+
+/* Footer Section */
+
+footer{
+ height: 55px;
+ padding: 10px 30px;
+ background-color: rgb(180, 170, 170);
+ text-align: center;
+ margin: 0;
+ justify-content: center;
+ font-size: large;
+}
